@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::post('/search', 'NominationController@search');
+
 Route::post('/nominate', 'NominationController@nominate');
+
+Route::get('/published', 'NominationController@publishedTitles');

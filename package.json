@@ -22,6 +22,7 @@
         "sass-loader": "^7.1.0"
     },
     "dependencies": {
-        "react-form": "^4.0.1"
+        "react-form": "^4.0.1",
+        "react-list-select": "^0.4.1"
     }
 }

@@ -16,7 +16,7 @@ class CreateNomineesTable extends Migration
         Schema::create('nominees', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('published_title', 500)->nullable();
-            $table->text('nominate', 800)->nullable();
+            $table->text('keywords', 800)->nullable();
             $table->timestamps();
         });
     }
